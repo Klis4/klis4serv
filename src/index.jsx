@@ -1,7 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Header from './components/header/header.jsx';
+import './style.css';
 
+console.log(Header);
 ReactDOM.render(
-  <div>klis4</div>,
+  Header,
   document.querySelector('#root'),
 );
