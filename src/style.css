@@ -6,3 +6,9 @@ body {
   background-color: #02160b;
   
 }
+
+.container {
+  width: 1440px;
+
+  margin: 0 auto;
+}

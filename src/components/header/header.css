@@ -3,16 +3,13 @@
 
 .header {
   width: 1440px;
-
-  margin: 0 auto;
   padding-top: 15px;
   padding-bottom: 15px;
-  padding-left: 10px;
-  padding-right: 15px;
 
 
   display: flex;
   justify-content: space-between;
+  align-items: center;
   
   color: #8E8A7E;
   background-color: #2F2821;
@@ -22,11 +19,15 @@
 /* Logo */
 
 .logo {
-  margin: 0;
+  margin: 0 30px;
+  align-items: center;
 
-  height: 75px;
   width: auto;
   display: flex;
+}
+
+.logo-pic {
+  width: 70px;
 }
 
 .logo-text {
@@ -51,7 +52,9 @@
 /* Navigation panel */
 
 .nav-panel {
-  
+  margin: 0;
+  padding: 10px 0;
+  align-items: center;
   
   display: flex;
 
@@ -62,6 +65,8 @@
 .nav-panel li {
   padding-left: 40px;
   padding-right: 40px;
+  align-items: center;
+
   font-size: 23px;
 }
 
@@ -76,7 +81,7 @@
   border: 2px solid #BD4519;
   border-radius: 5px;
   background-color: transparent;
-  font-size: 22px;
+  font-size: 23px;
 }
 
 .services-link:hover,
@@ -97,9 +102,6 @@
   transition-duration: .4s;
 
   color: #F7F7F7;
-  letter-spacing: 1.5px;
-  padding-right: 18px;
-  padding-left: 18px; 
 }
 
 .order-btn:active {
