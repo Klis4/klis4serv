@@ -90,13 +90,6 @@
   transition-duration: .3s;
 }
 
-.services-link:hover,
-.contacts-link:hover {
-  cursor: pointer;
-  color: #BD4519;
-  transition-duration: .4s;
-}
-
 .order-btn:hover {
   cursor: pointer;
   background-color: #BD4519;

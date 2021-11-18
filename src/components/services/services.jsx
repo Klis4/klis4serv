@@ -3,8 +3,8 @@ import './services.css';
 
 function Services () {
   return (
-    <div className="container">
-      <section className="services">
+    <section className="services" id="services">
+      <div className="container">
         <div className="our-services" id="articles">
           <h2 className="our-services-header">Наши услуги</h2> 
           <div className="slider-images">
@@ -31,10 +31,8 @@ function Services () {
             <button type="submit" className="send-btn">Отправить</button>
           </div>
         </div>
-      
-      </section>
-    </div>  
-
+      </div>  
+    </section>
   );
 }
 

@@ -12,8 +12,8 @@ function Header () {
         </div>
       </figure>
       <ul className="nav-panel">
-        <li><a className="services-link">Услуги</a></li>
-        <li><a className="contacts-link">Контакты</a></li>
+        <li><a href="#services" className="services-link link">Услуги</a></li>
+        <li><a href="#footer" className="contacts-link link">Контакты</a></li>
         <li><button type="button" className="order-btn">Заказать</button></li>
       </ul>
     </header>

@@ -3,7 +3,7 @@ import './main.css'
 
 function Main () {
   return (
-    <main className="container">
+    <main className="container"  id="main">
       <section className="main">
         <div className="main-logo">
           <h2>Klis4</h2>
