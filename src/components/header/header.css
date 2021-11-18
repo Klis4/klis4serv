@@ -82,6 +82,12 @@
   border-radius: 5px;
   background-color: transparent;
   font-size: 23px;
+
+  transition-duration: .3s;
+}
+
+.services-link, .contacts-link {
+  transition-duration: .3s;
 }
 
 .services-link:hover,
@@ -91,19 +97,10 @@
   transition-duration: .4s;
 }
 
-.services-link:active,
-.contacts-link:active {
-  color: #BD4519;
-}
-
 .order-btn:hover {
   cursor: pointer;
   background-color: #BD4519;
   transition-duration: .4s;
 
   color: #F7F7F7;
-}
-
-.order-btn:active {
-  background-color: #BD4519;
 }
