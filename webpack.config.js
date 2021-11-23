@@ -2,10 +2,12 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  entry: './src/index.jsx',
+  entry: {
+    app: ['babel-polyfill', './src/index.jsx'],
+  },
   output: {
-    path: path.resolve(__dirname, 'build'),
-    filename: 'build.js',
+    path: path.resolve(__dirname, 'app'),
+    filename: 'app.js',
   },
   resolve: {
     extensions: ['.jsx', '.js'],
@@ -16,8 +18,7 @@ module.exports = {
       directory: path.join(__dirname, 'src'),
     },
     compress: true,
-    port: 8080,
-
+    port: '8080',
   },
 
   module: {

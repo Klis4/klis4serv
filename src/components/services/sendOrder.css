@@ -1,0 +1,64 @@
+.send-order {
+  padding-top: 100px;
+}
+
+.send-order h3 {
+  text-align: center;
+  font-size: 27px;
+}
+
+
+.send input, button {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.name-field, .phone-field {
+  margin: 10px;
+
+  padding-top: 10px;
+  padding-right: 150px;
+  padding-bottom: 10px;
+  padding-left: 14px;
+
+  font-size: 23px;
+
+  outline: none;
+  border: 2px solid #BB9457;
+  border-radius: 5px;
+  background-color: transparent;
+
+  color: #8E8A7E;
+}
+
+.send-btn {
+  padding-top: 10px;
+  padding-left: 34px;
+  padding-right: 34px;
+  padding-bottom: 10px;
+
+  font-size: 23px;
+
+  outline: none;
+  border: 2px solid #BD4519;
+  border-radius: 5px;
+  background-color: #cd6326;
+  color: #F7F7F7;
+
+  transition-duration: .3s;
+}
+
+.name-field:hover, .phone-field:hover {
+  background-color: #614d2b;
+  transition-duration: .4s;
+
+}
+
+.send-btn:hover {
+  cursor: pointer;
+  background-color: #BD4519;
+  transition-duration: .4s;
+
+  color: #F7F7F7;
+}

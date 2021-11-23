@@ -3,9 +3,9 @@ import './footer.css';
 
 function Footer () {
   return (
-    <footer class="footer-block" id="footer">
+    <footer className="footer-block" id="footer">
       <div className="container">
-        <section class="footer-container">
+        <section className="footer-container">
           <figure className="logo">
             <img src="../../assets/icons/logo.svg" alt="Logo" className="logo-pic"></img>
             <div className="logo-text">
@@ -13,14 +13,14 @@ function Footer () {
               <h5>repairs</h5>
             </div>
           </figure>
-          <ul class="footer-navigation">
-            <li><a href="#main" class="main-link link">Главная</a></li>
-            <li><a href="#services" class="services-link link">Услуги</a></li>
+          <ul className="footer-navigation">
+            <li key="1"><a href="#main" className="main-link link">Главная</a></li>
+            <li key="2"><a href="#services" className="services-link link">Услуги</a></li>
           </ul>
-          <ul class="footer-socials">
-            <li><a class="facebook-link socials"></a></li>
-            <li><a class="instagram-link socials"></a></li>
-            <li><a class="telegram-link socials"></a></li>
+          <ul className="footer-socials">
+            <li key="1"><a className="facebook-link socials"></a></li>
+            <li key="2"><a className="instagram-link socials"></a></li>
+            <li key="3"><a className="telegram-link socials"></a></li>
           </ul>
         </section>
       </div>

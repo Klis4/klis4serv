@@ -1,0 +1,45 @@
+.services {  
+  margin: 0 auto;
+  padding-top: 115px;
+  padding-bottom: 115px;
+  background-color: #4e3b24;
+  color: #8E8A7E;
+
+  max-width: 1440px;
+}
+
+.our-services-header {  
+
+  text-align: center;
+  font-size: 46px;
+  letter-spacing: 1px;
+}
+
+.slider-images {  
+  padding-top: 50px;
+  justify-content: space-around;
+}
+
+.slide-image {
+  width: 250px;
+}
+
+.slide {
+  padding: 10px;
+  transition-duration: .3s;
+}
+
+.slide:hover {
+  border-radius: 10px;
+  background-color: #3b2d1b;
+  transition-duration: .4s;
+}
+
+.slide h4 {
+  align-items: center;
+  text-align: center;
+  margin-bottom: 16px;
+  font-size: 21px;
+}
+
+.slider-images {  display: flex;}
